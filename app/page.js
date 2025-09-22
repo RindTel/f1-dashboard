@@ -7,6 +7,7 @@ export default function Home() {
     { name: "Charles Leclerc", team: "Ferrari", points: 230, flag: "/flags/ferrari.png" },
   ];
 
+  <a href="/teams" style={{ color: "#e10600", textDecoration: "underline" }}>View Teams</a>
   return (
     <main style={{
       padding: '2rem',
